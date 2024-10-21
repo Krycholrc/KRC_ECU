@@ -1,1 +1,1 @@
-See https://github.com/rusefi/rusefi/wiki/Custom-Firmware
+Version for BMW standalone controller KRC_ECU.
