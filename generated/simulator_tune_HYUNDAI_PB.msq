@@ -1630,8 +1630,8 @@
         <constant digits="2" name="knockFrequency" units="Hz">0.0</constant>
         <constant name="secondaryInjectorCompensationMode">"None"</constant>
         <constant digits="0" name="secondaryInjectorFuelReferencePressure" units="kPa">0.0</constant>
-        <constant cols="1" digits="0" name="unusedOftenChangesDuringFirmwareUpdate" rows="111">
-         0.0
+        <constant name="EtbSentInput">"None"</constant>
+        <constant cols="1" digits="0" name="unusedOftenChangesDuringFirmwareUpdate" rows="110">
          0.0
          0.0
          0.0
@@ -4818,7 +4818,7 @@ end</constant>
          0.0
 </constant>
     </page>
-    <versionInfo firmwareInfo="20241120" nPages="1" signature="rusEFI main.2024.11.26.KRC_ECU.995334539" version="5.0"/>
+    <versionInfo firmwareInfo="20241120" nPages="1" signature="rusEFI main.2024.11.26.KRC_ECU.413390317" version="5.0"/>
     <bibliography author="rusEFI 20241120" writeDate="date"/>
     <settings/>
     <userComments/>
