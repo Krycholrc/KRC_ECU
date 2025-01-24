@@ -91,6 +91,10 @@ pins:
     class: outputs
     ts_name: CEL
 
+  - id: D6
+    class: outputs
+    ts_name: SPARE
+
   - id: E10
     class: outputs
     ts_name: A/C_RLY
@@ -126,6 +130,14 @@ pins:
   - id: EFI_ADC_6
     class: analog_inputs
     ts_name: TPS
+
+  - id: EFI_ADC_8
+    class: analog_inputs
+    ts_name: TPS1
+
+  - id: EFI_ADC_9
+    class: analog_inputs
+    ts_name: TPS2
 
   - id: EFI_ADC_12
     class: analog_inputs
