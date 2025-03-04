@@ -1883,7 +1883,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.03.03.KRC_ECU.886837947"
+#define TS_SIGNATURE "rusEFI main.2025.03.04.KRC_ECU.886837947"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
