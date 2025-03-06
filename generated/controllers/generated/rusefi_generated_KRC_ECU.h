@@ -151,8 +151,8 @@
 #define boostType_e_auto_enum 0="OPEN_LOOP",1="CLOSED_LOOP"
 #define boostType_e_CLOSED_LOOP 1
 #define boostType_e_OPEN_LOOP 0
-#define brain_input_pin_e_enum 0="NONE",54="CAM",50="CAN_RX",51="CAN_TX",53="CRANK",30="EGT_CS",52="SD_CS",12="UART_RX",11="UART_TX",24="VSS"
-#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","UART_TX","UART_RX","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS","INVALID","INVALID","INVALID","INVALID","INVALID","EGT_CS","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","CAN_RX","CAN_TX","SD_CS","CRANK","CAM"
+#define brain_input_pin_e_enum 0="NONE",75="A/C_SW",54="CAM",50="CAN_RX",51="CAN_TX",53="CRANK",30="EGT_CS",80="FLEX",78="IN1",79="IN2",81="LAUNCH",52="SD_CS",12="UART_RX",11="UART_TX",24="VSS"
+#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","UART_TX","UART_RX","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS","INVALID","INVALID","INVALID","INVALID","INVALID","EGT_CS","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","CAN_RX","CAN_TX","SD_CS","CRANK","CAM","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","A/C_SW","INVALID","INVALID","IN1","IN2","FLEX","LAUNCH"
 #define brain_pin_diag_e_PIN_DRIVER_OFF 0x20
 #define brain_pin_diag_e_PIN_DRIVER_OVERTEMP 0x10
 #define brain_pin_diag_e_PIN_OK 0
@@ -386,7 +386,7 @@
 #define ego_sensor_e_ES_Innovate_MTX_L 1
 #define ego_sensor_e_ES_PLX 4
 #define EGT_CHANNEL_COUNT 8
-#define END_OF_CALIBRATION_PADDING 54
+#define END_OF_CALIBRATION_PADDING 53
 #define engine_configuration_s_size 4012
 #define engine_load_mode_e_auto_enum 0="LM_SPEED_DENSITY",2="LM_ALPHA_N",3="LM_LUA",100="LM_MOCK",1="LM_REAL_MAF"
 #define engine_load_mode_e_enum "Speed Density", "MAF Air Charge", "Alpha-N", "Lua"
@@ -1388,7 +1388,7 @@
 #define show_tcu_gauges false
 #define show_test_presets true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3088122344
+#define SIGNATURE_HASH 3127326915
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1884,7 +1884,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.03.06.KRC_ECU.3088122344"
+#define TS_SIGNATURE "rusEFI main.2025.03.06.KRC_ECU.3127326915"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
