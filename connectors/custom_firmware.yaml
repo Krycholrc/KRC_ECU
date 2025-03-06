@@ -191,22 +191,22 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: EGT_CS
 
-  - id: E9
+  - id: [E9, E9]
     class: [switch_inputs, event_inputs]
     ts_name: A/C_SW
 
-  - id: E12
+  - id: [E12, E12]
     class: [switch_inputs, event_inputs]
     ts_name: IN1
 
-  - id: E13
+  - id: [E13, E13]
     class: [switch_inputs, event_inputs]
     ts_name: IN2
 
-  - id: E14
+  - id: [E14, E14]
     class: [switch_inputs, event_inputs]
     ts_name: FLEX
 
-  - id: E15
+  - id: [E15, E15]
     class: [switch_inputs, event_inputs]
     ts_name: LAUNCH
