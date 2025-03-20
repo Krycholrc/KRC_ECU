@@ -83,13 +83,13 @@ pins:
     class: outputs
     ts_name: BOOST
 
-  - id: B7
-    class: outputs
-    ts_name: FAN
-
   - id: D5
     class: outputs
-    ts_name: CEL
+    ts_name: FAN1
+    
+  - id: B7
+    class: outputs
+    ts_name: FAN2
 
   - id: D6
     class: outputs
@@ -113,7 +113,7 @@ pins:
 
   - id: EFI_ADC_2
     class: analog_inputs
-    ts_name: MAF
+    ts_name: OIL.P
 
   - id: EFI_ADC_3
     class: analog_inputs
@@ -131,21 +131,13 @@ pins:
     class: analog_inputs
     ts_name: TPS
 
-  - id: EFI_ADC_8
+  - id: EFI_ADC_12
     class: analog_inputs
     ts_name: TPS1
 
-  - id: EFI_ADC_9
-    class: analog_inputs
-    ts_name: TPS2
-
-  - id: EFI_ADC_12
-    class: analog_inputs
-    ts_name: ANALOG_A9
-
   - id: EFI_ADC_13
     class: analog_inputs
-    ts_name: ANALOG_A10
+    ts_name: TPS2
 
   - id: EFI_ADC_14
     class: analog_inputs
