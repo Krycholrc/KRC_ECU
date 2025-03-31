@@ -1,3 +1,5 @@
+luaScriptSize: 16384
+
 pins:
   - id: D8
     class: outputs
