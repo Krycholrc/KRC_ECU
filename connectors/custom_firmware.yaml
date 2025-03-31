@@ -1,5 +1,7 @@
 inherits: f407-discovery
 
+engineType: 1337
+
 pins:
   - id: D8
     class: outputs
