@@ -1,7 +1,4 @@
-inherits:
-  - frankenso
-
-luaScriptSize: 16384
+inherits: f407-discovery
 
 pins:
   - id: D8
