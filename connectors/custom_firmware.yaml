@@ -1,3 +1,6 @@
+inherits:
+  - frankenso
+
 luaScriptSize: 16384
 
 pins:
