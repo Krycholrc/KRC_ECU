@@ -1492,7 +1492,7 @@
 #define show_tcu_gauges false
 #define show_test_presets true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 2953024583
+#define SIGNATURE_HASH 4231108006
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1697,7 +1697,6 @@
 #define ts_14_command_COMMAND_X14_UNUSED_3 0x03
 #define ts_14_command_COMMAND_X14_UNUSED_4 0x04
 #define ts_14_command_COMMAND_X14_UNUSED_5 0x05
-#define ts_14_command_COMMAND_X14_UNUSED_9 0x09
 #define ts_14_command_TS_BURN_WITHOUT_FLASH 0x15
 #define ts_14_command_TS_ETB_AUTOCAL_0 0x0E
 #define ts_14_command_TS_ETB_AUTOCAL_0_FAST 0x1C
@@ -1719,6 +1718,7 @@
 #define ts_14_command_TS_SD_MOUNT_ECU 0x18
 #define ts_14_command_TS_SD_MOUNT_PC 0x17
 #define ts_14_command_TS_SD_UNMOUNT 0x19
+#define ts_14_command_TS_START_STOP_ENGINE 0x09
 #define ts_14_command_TS_TRIGGER_STIMULATOR_DISABLE 0x0F
 #define ts_14_command_TS_TRIGGER_STIMULATOR_ENABLE 0x0D
 #define ts_14_command_TS_WIDEBAND_UPDATE 0x12
@@ -1998,6 +1998,8 @@
 #define ts_show_startup_map_baro_grab true
 #define ts_show_status_leds true
 #define ts_show_stepper false
+#define ts_show_stepper_hbridge true
+#define ts_show_stepper_push_pull false
 #define ts_show_strokes true
 #define ts_show_sync_cam true
 #define ts_show_tachometer true
@@ -2031,7 +2033,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.01.KRC_ECU.2953024583"
+#define TS_SIGNATURE "rusEFI main.2025.07.02.KRC_ECU.4231108006"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
