@@ -1497,7 +1497,7 @@
 #define show_tcu_gauges false
 #define show_test_presets true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 1780411341
+#define SIGNATURE_HASH 1693248749
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1698,11 +1698,11 @@
 #define TriggerWheel_T_SECONDARY 1
 #define ts_14_command_COMMAND_X14_UNUSED_0 0x00
 #define ts_14_command_COMMAND_X14_UNUSED_1 0x01
+#define ts_14_command_COMMAND_X14_UNUSED_15 0x15
 #define ts_14_command_COMMAND_X14_UNUSED_2 0x02
 #define ts_14_command_COMMAND_X14_UNUSED_3 0x03
 #define ts_14_command_COMMAND_X14_UNUSED_4 0x04
 #define ts_14_command_COMMAND_X14_UNUSED_5 0x05
-#define ts_14_command_TS_BURN_WITHOUT_FLASH 0x15
 #define ts_14_command_TS_ETB_AUTOCAL_0 0x0E
 #define ts_14_command_TS_ETB_AUTOCAL_0_FAST 0x1C
 #define ts_14_command_TS_ETB_AUTOCAL_1 0x11
@@ -2038,7 +2038,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.13.KRC_ECU.1780411341"
+#define TS_SIGNATURE "rusEFI main.2025.07.14.KRC_ECU.1693248749"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
